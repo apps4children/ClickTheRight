@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ClickTheRightActivity"
+    android:background="@drawable/finalmainscreen" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="100dp"
+        android:layout_marginLeft="33dp">
+    <Button
+        android:id="@+id/playBtn"
+        android:layout_width="120dip"
+        android:layout_height="60dip"
+        android:background="@drawable/btn_new"
+        android:padding="5dp"
+        android:text="Play"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/rulesBtn"
+        android:layout_width="120dip"
+        android:layout_height="60dip"
+        android:layout_alignLeft="@+id/playBtn"
+        android:layout_alignRight="@+id/playBtn"
+        android:layout_below="@+id/playBtn"
+        android:background="@drawable/btn_new"
+        android:padding="5dip"
+        android:text="Rules"
+        android:textSize="20sp"
+         android:textStyle="bold" />
+
+        <Button
+        android:id="@+id/scoreCard"
+        android:layout_width="120dip"
+        android:layout_height="60dip"
+        android:layout_alignLeft="@+id/rulesBtn"
+        android:layout_alignRight="@+id/rulesBtn"
+        android:layout_below="@+id/rulesBtn"
+        android:background="@drawable/btn_new"
+        android:padding="5dip"
+        android:text="Score"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/exitBtn"
+        android:layout_width="120dip"
+        android:layout_height="60dip"
+        android:layout_alignLeft="@+id/scoreCard"
+        android:layout_alignRight="@+id/scoreCard"
+        android:layout_below="@+id/scoreCard"
+        android:background="@drawable/btn_new"
+        android:padding="5dip"
+        android:text="Exit"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ClickTheRight</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="level1">This level has the combination of the capital letters and symbols, question is given at the upper right most corner and the answers are given at the bottom and the collection of symbols and alphabet. The child has to be find out the matching letter.</string>
+    <string name="level2">This level has the combination of the small letters and symbols, question is given at the upper right most corner and the answers are given at the bottom and the collection of symbols and alphabet. The child has to be find out the matching letter.</string>
+    <string name="level3">This level has the combination of the small letters and capital letters, question is given at the upper right most corner and the answers are given at the bottom and the collection of both small and capital letters. The child has to be find out the matching letter.</string>
+    
+ <style name="ButtonText">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_margin">2dp</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">2</item>
+    <item name="android:typeface">sans</item>
+</style>
+
+<style name="ReportText">
+    <item name="android:layout_margin">1dp</item>
+    <item name="android:padding">3dp</item>
+    <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    <item name="android:background">#FFFFFF</item>
+    <item name="android:textColor">#202020</item>
+</style>
+</resources>

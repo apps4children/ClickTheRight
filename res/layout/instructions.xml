@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/noborder" >
+    
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#BC1E49">
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instructions"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:typeface="sans"
+        android:paddingTop="5dp"
+        android:textStyle="bold"
+        android:gravity="center" />
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/instLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:paddingTop="10dp">
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/instLevel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Level1"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            
+           <TextView
+                android:id="@+id/contentLevel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/level1"
+                android:textSize="20dp"
+                android:layout_below="@+id/instLevel1" />
+            <TextView
+                android:id="@+id/instLevel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Level2"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_below="@+id/contentLevel1"
+                android:paddingTop="5dp" />
+            
+           <TextView
+                android:id="@+id/contentLevel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/level2"
+                android:textSize="20dp"
+                android:layout_below="@+id/instLevel2" />
+            <TextView
+                android:id="@+id/instLevel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Level3"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_below="@+id/contentLevel2"
+                android:paddingTop="5dp" />
+            
+           <TextView
+                android:id="@+id/contentLevel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/level3"
+                android:textSize="20dp"
+                android:layout_below="@+id/instLevel3" />
+           </RelativeLayout>
+         </ScrollView>
+</RelativeLayout>
